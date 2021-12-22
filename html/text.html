@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+</head>
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<title>简单的网页留言板</title>
+<script type="text/javascript" src="js/text.js"></script>
+</head>
+<body>
+<h1 align="center">留言板</h1>
+<p align="center">输入你的建议吧</p>
+<div align="center">
+  <textarea id="dome" cols="60" rows="10"></textarea>
+  <br/>
+  <input type="button" value="发布留言" onclick="saveStorage('dome');">
+  <input type="button" value="清空" onclick="clearStorage('msg');">
+  <input type="button" value="查看留言" onclick="loadStorage('msg');">
+</div>
+<hr>
+<p id="msg"></p>
+</body>
+</html>
+<body>
+</body>
+</html>
